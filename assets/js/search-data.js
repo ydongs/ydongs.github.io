@@ -50,32 +50,47 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-create-personal-website-sparkles-smile",
-          title: 'Create personal website! :sparkles: :smile:',
+            },},{id: "news-created-personal-website-sparkles-smile",
+          title: 'Created personal website! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-intel-xpu-backend-for-triton",
-          title: 'intel-xpu-backend-for-triton',
+          section: "News",},{id: "projects-intel-intel-xpu-backend-for-triton",
+          title: 'intel/intel-xpu-backend-for-triton',
           description: "OpenAI Triton backend for Intel® GPUs",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/intel-xpu-backend-for-triton/";
+            },},{id: "projects-pytorch-pytorch",
+          title: 'pytorch/pytorch',
+          description: "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/pytorch/";
+            },},{id: "projects-pytorch-benchmark",
+          title: 'pytorch/benchmark',
+          description: "TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/torchbench/";
+            },},{id: "projects-triton-lang-triton",
+          title: 'triton-lang/triton',
+          description: "Triton, a language and compiler for writing highly efficient custom Deep-Learning primitives. The aim of Triton is to provide an open-source environment to write fast code at higher productivity than CUDA, but also with higher flexibility than other existing DSLs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/triton/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/xetla/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%75%64%6F%6E%67_%73%69@%31%36%33.%63%6F%6D", "_blank");
+          window.open("mailto:%31%35%30%35%36%33%32%39%34%33@%71%71.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/yudongsi", "_blank");
+          window.open("https://github.com/ydongs", "_blank");
         },
       },{
         id: 'social-rss',
