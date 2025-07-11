@@ -29,7 +29,7 @@
 #### Triton 编译器 XPU 后端开发
 
 - **功能实现**
-  - 增加GLM支持、AOT编译、TF32的OpenCL扩展等开发
+  - 增加GLM支持、AOT编译、TF32的SPIRV扩展等开发
   - 构建编译器后处理优化管道（Postprocess Pass）
 - **性能调优**
   - 建立首套Triton-XPU性能Benchmark体系（覆盖Softmax, GEMM, FA），支持灵活拓展手写库（如XeTLA, CUTLASS, oneDNN）用于性能对比
