@@ -55,7 +55,9 @@ _Intel® XPU Backend for Triton_, a new Triton backend for Intel GPUs. Intel® X
 - **[#4146](https://github.com/intel/intel-xpu-backend-for-triton/pull/4146)** Handle op with multi results case in changeAndPropagateLayout
 - **[#3937](https://github.com/intel/intel-xpu-backend-for-triton/pull/3937)** Add `dot3d[8-2-64-64-64-32-32-float32-float32]` to `skiplists`
 - **[#3875](https://github.com/intel/intel-xpu-backend-for-triton/pull/3875)** Make sure install `setuptools>=78.1.0` in `setup-triton`
+- **[#3803](https://github.com/intel/intel-xpu-backend-for-triton/pull/3803)** add f32 rtne to tf32 in DPAS
 - **[#3795](https://github.com/intel/intel-xpu-backend-for-triton/pull/3795)** Reland "Check the non 4-bytes aligned base/offsetX/width on block pointer (#3712)"
+- **[#3712](https://github.com/intel/intel-xpu-backend-for-triton/pull/3712)** Check the non 4-bytes aligned base/offsetX/width on block pointer #3712"
 - **[#3705](https://github.com/intel/intel-xpu-backend-for-triton/pull/3705)** [GEMM] Add the tensor of pointer benchmark
 - **[#3644](https://github.com/intel/intel-xpu-backend-for-triton/pull/3644)** Fix `dpas_to_block_layout_convert.mlir`
 - **[#3497](https://github.com/intel/intel-xpu-backend-for-triton/pull/3497)** Add `rewrite_stack_ptr` post process pass

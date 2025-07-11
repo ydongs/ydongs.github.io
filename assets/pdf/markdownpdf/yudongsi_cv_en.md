@@ -29,7 +29,7 @@
 #### Triton Compiler XPU Backend Development
 
 - **Feature Implementation**
-  - Developed GLM support, AOT compilation, TF32 OpenCL extensions
+  - Developed GLM support, AOT compilation, TF32 SPIRV extensions
   - Built post-processing optimization pipeline (Postprocess Pass)
 - **Performance Optimization**
   - Established first Triton-XPU Benchmark system (Softmax/GEMM/FA), supporting extendable handwritten libraries (XeTLA, CUTLASS, oneDNN)
