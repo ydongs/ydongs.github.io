@@ -6,17 +6,13 @@
 
 <span class="icon">&#xe60f;</span> `19121726080`&emsp;&emsp;
 <span class="icon">&#xe7ca;</span> `1505632943@qq.com`&emsp;&emsp;
-<span class="icon">&#xe600;</span> `https://github.com/ydongs`
+<span class="icon">&#xe600;</span> `https://github.com/yudongsi`
 
 ### &#xe80c; 教育经历
 
 <div class="entry-title">
     <h3>同济大学 - 硕士 - 集成电路工程专业</h3>
     <p>2019.09 - 2022.03</p>
-</div>
-<div class="entry-title">
-    <h3>南通大学 - 本科 - 电子信息工程专业</h3>
-    <p>2014.09 - 2018.06</p>
 </div>
 
 ### &#xe618; 工作经验
@@ -28,14 +24,16 @@
 
 #### Triton 编译器 XPU 后端开发
 
-- **功能实现**
-  - 增加GLM支持、AOT编译、TF32的SPIRV扩展等开发
-  - 构建编译器后处理优化管道（Postprocess Pass）
+- **后端开发**
+  - 增加后端launcher对Global Scratch Memory的支持
+  - 构建AOT编译工具链(SPIRV->LevelZero->SYCL)，方便底层问题的复现
+  - 开发Intel专用Pass: tritonintelgpu-rewrite-stack-ptr，重写上游共享内存栈指针
+  - 增加SPIRV拓展\_Z25\_\_spirv_RoundFToTF32INTELf的支持，提升tl.dot DPAS的精度.
 - **性能调优**
-  - 建立首套Triton-XPU性能Benchmark体系（覆盖Softmax, GEMM, FA），支持灵活拓展手写库（如XeTLA, CUTLASS, oneDNN）用于性能对比
-  - 性能优化与提升，关键内核性能达到Intel性能库XeTLA的90%+
+  - 建立首套Triton-XPU性能Benchmark体系, 覆盖Softmax, GEMM, FA等流行内核，支持高性能库（如XeTLA, CUTLASS, oneDNN）参考对标
+  - 性能优化与提升，关键内核(如GEMM)性能达到Intel性能库XeTLA的90%+
 - **BUG修复**
-  - 累计解决编译器后端 35+ High issue
+  - 累计解决编译器后端 35+ High issue， 包括性能回归，Laylout修改传播缺陷，单元测试问题等.
 
 #### PyTorch 生态优化
 
@@ -56,30 +54,10 @@
   - 定位failed/timeout用例
   - 实现测试镜像版本自动化追踪
 
-### &#xe635; 项目经历
-
-<div class="entry-title">
-    <h3>驾驶员疲劳检测系统 | 计算机视觉  | 2021.07 | 校园项目 </h3>
-</div>
-
-提出眼口姿态+头部欧拉角的多特征融合检测模型
-
-- 设计眨眼计数（EAR<0.25）与哈欠检测（MAR>0.8）联合判据
-- 在开发板部署轻量化推理管道
-- 开发QT监控界面，支持疲劳状态可视化告警
-
-<div class="entry-title">
-    <h3>汽车氛围灯触控系统 | 嵌入式开发 | 2020.02 | 校园项目 </h3>
-</div>
-
-开发车规级可编程氛围灯控制系统，实现触摸屏到LIN总线的全链路控制
-
-- 设计组态屏UART指令解析引擎，支持自定义控制指令
-- 实现LIN总线无条件帧传输协议
-- 开发电容触摸HMI界面
-
 ### &#xecfa; 专业技能
 
-- **语言**：C/C++, Python, Bash
-- **基础**：数据结构与算法，操作系统， 计算机体系结构
-- **AI基础设施**：PyTorch,LLVM,MLIR,oneAPI,OpenCL,CUDA,SYCL,Jenkins,GitHub Actions,Docker
+- **编译器**：Triton,LLVM,MLIR,SPIRV
+- **异构计算**：oneAPI,OpenCL,CUDA,SYCL,Level Zero,ROCm
+- **AI框架**：Pytorch,IPEX
+- **AI基础设施**：Jenkins,GitHub Actions,Docker,Vtune Profiler
+- **语言**：C/C++,Python,Bash
