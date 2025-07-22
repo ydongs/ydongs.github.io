@@ -6,17 +6,13 @@
 
 <span class="icon">&#xe60f;</span> `19121726080`&emsp;&emsp;
 <span class="icon">&#xe7ca;</span> `1505632943@qq.com`&emsp;&emsp;
-<span class="icon">&#xe600;</span> `https://github.com/ydongs`
+<span class="icon">&#xe600;</span> `https://github.com/yudongsi`
 
 ### &#xe80c; Education
 
 <div class="entry-title">
     <h3>Tongji University</h3>
     <p>2019.09 - 2022.03</p>
-</div>
-<div class="entry-title">
-    <h3>Nantong University</h3>
-    <p>2014.09 - 2018.06</p>
 </div>
 
 ### &#xe618; Work Experience
@@ -29,13 +25,15 @@
 #### Triton Compiler XPU Backend Development
 
 - **Feature Implementation**
-  - Developed GLM support, AOT compilation, TF32 SPIRV extensions
-  - Built post-processing optimization pipeline (Postprocess Pass)
+  - Implemented global scratch memory addressing in backend launcher
+  - Built SPIR-V → Level Zero → SYCL AOT compilation pipeline, facilitating low-level issue reproduction.
+  - Created Intel specific Pass tritonintelgpu-rewrite-stack-ptr to optimize shared local memory (SLM) pointer handling.
+  - Integrated \_\_spirv_RoundFToTF32INTEL SPIRV extension for enhanced FP32 precision in tl.dot DPAS lowering.
 - **Performance Optimization**
-  - Established first Triton-XPU Benchmark system (Softmax/GEMM/FA), supporting extendable handwritten libraries (XeTLA, CUTLASS, oneDNN)
-  - Achieved >90% performance of Intel's XeTLA library in key kernels
+  - Established Triton-XPU's first benchmark system covering Softmax/GEMM/FA key kernels, with extensible support for vendor libraries (XeTLA/CUTLASS/oneDNN).
+  - Optimized critical kernels (e.g. GEMM) and achieved >90% performance of Intel's XeTLA library
 - **Bug Fixes**
-  - Resolved 35+ High-priority compiler backend issues
+  - Resolved 35+ High-priority compiler backend issues including: performance regressions, Layout propagation failures in IR passes, ut issues and so on.
 
 #### PyTorch Ecosystem Optimization
 
@@ -56,30 +54,10 @@
   - Debugged failed/timeout test cases
   - Automated test image version tracking
 
-### &#xe635; Projects
-
-<div class="entry-title">
-    <h3>Driver Fatigue Detection System | Computer Vision | 2021.07 | Academic Project </h3>
-</div>
-
-Multi-feature fusion model (eye/mouth pose + head Euler angles)
-
-- Designed joint detection: blink count (EAR<0.25) + yawn detection (MAR>0.8)
-- Deployed lightweight inference pipeline on embedded board
-- Developed QT monitoring UI with visual fatigue alerts
-
-<div class="entry-title">
-    <h3>Automotive Ambient Lighting Control | Embedded Systems | 2020.02 | Academic Project </h3>
-</div>
-
-Vehicle-grade programmable ambient light control system (touchscreen to LIN bus)
-
-- Designed touchscreen UART command parser with custom instructions
-- Implemented LIN bus unconditional frame protocol
-- Created capacitive touch HMI interface
-
 ### &#xecfa; Skills
 
+- **Compiler**: Triton,LLVM,MLIR,SPIRV
+- **Heterogeneous Computing**: oneAPI,OpenCL,CUDA,SYCL,Level Zero,ROCm
+- **AI Framework**: Pytorch,IPEX
+- **AI Infrastructure**: Jenkins,GitHub Actions,Docker,Vtune Profiler
 - **Languages**: C/C++, Python, Bash
-- **Fundamentals**: Data Structures & Algorithms, OS, Computer Architecture
-- **AI Infrastructure**: PyTorch,LLVM,MLIR,oneAPI,OpenCL,CUDA,SYCL,Jenkins,GitHub Actions,Docker
