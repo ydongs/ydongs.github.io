@@ -1,0 +1,51 @@
+/* 重置所有边距和填充 */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 11.5pt !important; /* 全局字体缩小 */
+  line-height: 1.2 !important; /* 紧凑行高 */
+}
+
+/* 压缩图片尺寸 */
+img {
+  width: 85px !important; /* 缩小头像 */
+  height: 80px !important;
+  top: -5px !important; /* 微调头像位置 */
+}
+
+/* 紧凑标题间距 */
+h1,
+h2,
+h3,
+p {
+  margin: 3px 0 !important;
+}
+
+/* 压缩教育/工作经历模块 */
+.entry-title {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+/* 压缩列表项 */
+ul {
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+  padding-left: 15px !important;
+}
+
+li {
+  margin-bottom: 2px !important; /* 列表项紧凑 */
+}
+
+/* 专业技能区域特殊处理 */
+h3:last-of-type {
+  margin-top: 5px !important; /* 减少顶部间距 */
+}
+
+/* 整体内容容器 */
+.markdown-body {
+  padding: 5mm 8mm !important; /* 减小页面内边距 */
+  transform: scale(0.98); /* 全局轻微缩放 */
+  transform-origin: top left;
+}
