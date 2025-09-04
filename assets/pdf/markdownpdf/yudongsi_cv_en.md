@@ -31,6 +31,7 @@
   - Integrated \_\_spirv_RoundFToTF32INTEL SPIRV extension for enhanced FP32 precision in tl.dot DPAS lowering.
 - **Performance Optimization**
   - Established Triton-XPU's first benchmark system covering Softmax/GEMM/FA key kernels, with extensible support for vendor libraries (XeTLA/CUTLASS/oneDNN).
+  - Landing optimization passes like: Coalesce，AcceletateMatmul, RemoveLayoutConversion, Pipeline / Prefetch, Swizzling etc.
   - Optimized critical kernels (e.g. GEMM) and achieved >90% performance of Intel's XeTLA library
 - **Bug Fixes**
   - Resolved 35+ High-priority compiler backend issues including: performance regressions, Layout propagation failures in IR passes, ut issues and so on.
