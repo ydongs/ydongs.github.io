@@ -31,7 +31,8 @@
   - 增加SPIRV拓展\_Z25\_\_spirv_RoundFToTF32INTELf的支持，提升tl.dot DPAS的精度.
 - **性能调优**
   - 建立首套Triton-XPU性能Benchmark体系, 覆盖Softmax, GEMM, FA等流行内核，支持高性能库（如XeTLA, CUTLASS, oneDNN）参考对标
-  - 性能优化与提升，关键内核(如GEMM)性能达到Intel性能库XeTLA的90%+
+  - 性能优化与提升，支持多种Optimization Pass 落地，包括Coalesce，AcceletateMatmul, RemoveLayoutConversion, Pipeline / Prefetch, Swizzling等
+  - 关键内核(如GEMM)性能达到Intel性能库XeTLA的90%+
 - **BUG修复**
   - 累计解决编译器后端 35+ High issue， 包括性能回归，Laylout修改传播缺陷，单元测试问题等.
 
