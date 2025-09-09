@@ -2,7 +2,7 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 11.5pt !important; /* 全局字体缩小 */
+  font-size: 11pt !important; /* 全局字体缩小 */
   line-height: 1.2 !important; /* 紧凑行高 */
 }
 
