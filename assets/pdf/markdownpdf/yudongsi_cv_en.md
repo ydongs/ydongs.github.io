@@ -14,6 +14,10 @@
     <h3>Tongji University</h3>
     <p>2019.09 - 2022.03</p>
 </div>
+<div class="entry-title">
+    <h3>Nantong University</h3>
+    <p>2014.09 - 2018.03</p>
+</div>
 
 ### &#xe618; Work Experience
 
