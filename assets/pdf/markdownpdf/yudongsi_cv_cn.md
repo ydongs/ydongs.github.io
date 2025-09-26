@@ -44,21 +44,18 @@
 #### PyTorch 生态优化
 
 - **CI/CD 创新**
-  - 针对 PyTorch Inductor CPU Performance 基于 Jenkins 设计 AWS Xeon 实例自动化流水线，实现：
-    - 自动收集200+ 模型的性能指标
-    - 自动化报告生成与发布
+  - 针对 PyTorch Inductor CPU Performance 基于 Jenkins 设计 AWS Xeon 实例自动化流水线，实现自动收集150+ 模型的性能指标
 
-<div class="entry-title">
-  <h3>CUDA测开实习生@英伟达半导体科技（上海）有限公司</h3>
-  <p>2021.08 - 2021.11</p>
-</div>
+### &#xecfa; 项目经验
 
-#### CUDA Orin Simulator实践
+#### 嵌入式计算机视觉系统
 
-- **参与NVIDIA Orin t23x SOC的CUDA安全与代码覆盖测试体系构建**
-  - 基于VDK虚拟测试套件搭建自动化测试平台
-  - 定位failed/timeout用例
-  - 实现测试镜像版本自动化追踪
+- **驾驶员疲劳检测系统 (基于Jetson Nano和IMX6UL开发板)**
+  - 针对眼、口和头部姿态，设计了疲劳检测系统，工作流程包括人脸检测、关键点定位、疲劳状态检测和报警
+  - 人脸检测算法: HOG+SVM
+  - 关键点定位: 利用级联回归树思想训练生成的人脸26点模型
+  - 疲劳状态检测: 运行PERCLOS算法和欧拉角计算，识别眯眼、哈欠、低头特征
+  - 报警：基于QT C++框架开发操作界面, 适配车载LIN氛围灯提示功能
 
 ### &#xecfa; 专业技能
 

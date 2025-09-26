@@ -43,21 +43,17 @@
 #### PyTorch Ecosystem Optimization
 
 - **CI/CD Innovation**
-  - Designed AWS Xeon-based Jenkins pipeline for PyTorch Inductor CPU Performance:
-    - Automated collection of 200+ model performance metrics
-    - Auto-generated performance reports
+  - Designed AWS Xeon-based Jenkins pipeline for PyTorch Inductor CPU Performance,automated collection of 150+ model performance metrics
 
-<div class="entry-title">
-    <h3>CUDA Test Engineer Intern@NVIDIA</h3>
-    <p>2021.08 - 2021.11</p>
-</div>
+### &#xecfa; Project Experience
 
-#### CUDA Orin Simulator Practice
+#### Embedded Computer Vision System
 
-- **Built CUDA safety & code coverage system for NVIDIA Orin t23x SOC**
-  - Automated test platform using VDK virtual test suite
-  - Debugged failed/timeout test cases
-  - Automated test image version tracking
+- **Driver Fatigue Detection System (Jetson Nano and IMX6UL)**
+  - Face detection: Traditional HOG + SVM algorithm
+  - Key point localization: A 26-point localization model trained based on cascading regression trees
+  - Fatigue state detection: Implementation of PERCLOS algorithm and Euler angle calculation to identify features such as eye closure, yawning, and head tilting
+  - Alerting: Development of an operational interface using the QT, integration with in-vehicle LIN ambient lighting for alert functionality
 
 ### &#xecfa; Skills
 
