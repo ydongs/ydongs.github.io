@@ -4,7 +4,6 @@
 
 ## Si Yudong
 
-<span class="icon">&#xe60f;</span> `19121726080`&emsp;&emsp;
 <span class="icon">&#xe7ca;</span> `1505632943@qq.com`&emsp;&emsp;
 <span class="icon">&#xe600;</span> `https://github.com/yudongsi`
 
