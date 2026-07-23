@@ -1,0 +1,122 @@
+{
+  "basics": {
+    "name": "Yudong Si",
+    "email": "1505632943@qq.com",
+    "phone": "1234567890",
+    "url": "https://ydongs.github.io",
+    "location": {
+      "postalCode": "200000",
+      "city": "Shanghai",
+      "countryCode": "CN",
+      "region": "Shanghai"
+    }
+  },
+  "work": [
+    {
+      "name": "INTEL CORPORATION",
+      "position": "AI Framework Engineer",
+      "startDate": "2022-07-11",
+      "endDate": "2025-07-31",
+      "summary": "Yudong Si have been an AI Frameworks Engineer (Triton Compiler) at the Intel since 2022, contributed to several impactful projects, involving Triton Compiler, Triton XPU backend, XeTLA, PyTorch, and Torchbench."
+    },
+    {
+      "name": "NVIDIA CORPORATION",
+      "position": "CUDA Test Development Software Engineer",
+      "startDate": "2021-08-01",
+      "endDate": "2021-11-30",
+      "summary": "Interned as a CUDA Test Development Engineer at NVIDIA."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tongji University",
+      "location": "Shanghai, China",
+      "url": "https://en.tongji.edu.cn",
+      "area": "Integrated circuit engineering",
+      "studyType": "Master",
+      "startDate": "2019-09-01",
+      "endDate": "2022-03-01"
+    },
+    {
+      "institution": "Nantong University",
+      "location": "Nantong, China",
+      "url": "https://en.ntu.edu.cn",
+      "area": "Electronic information engineering",
+      "studyType": "Bachelor",
+      "startDate": "2014-09-01",
+      "endDate": "2018-06-30"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third Prize of the 17th National Post-Graduate Mathematic Contest in Modeling",
+      "date": "2020-08-01",
+      "awarder": "China Academic Degrees & Graduate Education Development Center (CDGDC)",
+      "url": "https://cpipc.acge.org.cn"
+    },
+    {
+      "title": "Campus Scholarship",
+      "date": "2017-08-01",
+      "awarder": "Nantong University"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "College English Test Band 6 (CET-6)"
+    },
+    {
+      "name": "National Computer Rank Examination (NCRE-3)"
+    }
+  ],
+  "publications": [
+    {
+      "name": "RGB-LED Touch Control Experimental System for Automobile Based on Configuration Design",
+      "releaseDate": "2021-11-08",
+      "url": "https://d.wanfangdata.com.cn/periodical/sysyjyts202109004",
+      "summary": "According to the needs of the undergraduate experiment course of electronic science and technology,an RGB-LED touch control experiment system for automobile based on configuration design is developed.The system is oriented to automotive electronic applications,using the serial screen as the operating terminal,and the Kinetis EA series MCU as the system microcontroller.The touch commands of the human-machine interface of the serial screen are designed by configuration,the data are sent to the microcontroller through the serial port for analysis,finally forwarded to the pulse width modulation(PWM)constant current module through the LIN protocol port.Then the system outputs the three primary color channel drive signals with different duty cycles to realize the dimming and color adjustment of RGB-LED"
+    },
+    {
+      "name": "Touch device for automobile atmosphere lamp and implementation method",
+      "releaseDate": "2020-12-09",
+      "url": "https://patents.google.com/patent/CN112455328A/en"
+    },
+    {
+      "name": "Detection and identification method and device for fatigue driving",
+      "releaseDate": "2022-04-25",
+      "url": "https://patents.google.com/patent/CN114973213A/en"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Engineering",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["LLVM", "MLIR", "Triton", "AI Compiler", "AI Infrastructures", "Software Engineering"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "intel/intel-xpu-backend-for-triton",
+      "summary": "Intel® XPU Backend for Triton, a new Triton backend for Intel GPUs. Intel® XPU Backend for Triton* is a out of tree backend module for Triton used to provide best-in-class performance and productivity on any Intel GPUs for PyTorch and standalone usage.*",
+      "highlights": ["AI", "MLIR", "Compiler", "Triton"],
+      "startDate": "2023-10-01",
+      "endDate": "2025-07-31",
+      "url": "https://github.com/intel/intel-xpu-backend-for-triton"
+    },
+    {
+      "name": "pytorch/pytorch",
+      "summary": "We built a CI/CD pipeline on AWS Xeon instances using Jenkins to automatically collect, test, and publish PyTorch Inductor CPU performance data – accelerating Intel’s optimization efforts for PyTorch.",
+      "highlights": ["AI Infrastructures"],
+      "startDate": "2022-07-11",
+      "endDate": "2023-10-01",
+      "url": "https://github.com/pytorch/pytorch/tree/main/benchmarks/dynamo"
+    },
+    {
+      "name": "TorchBench",
+      "summary": "TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.",
+      "highlights": ["AI Infrastructures"],
+      "startDate": "2022-07-11",
+      "endDate": "2023-10-01",
+      "url": "https://github.com/pytorch/benchmark"
+    }
+  ]
+}
